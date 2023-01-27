@@ -21,7 +21,10 @@ function App() {
       
     </div>
     </div>
+    <footer>
     <h2>Call Now 737-781-9878</h2>
+    <div className="home-btn"><p>Book Now</p></div>
+    </footer>
     </div>   
   );
 }
