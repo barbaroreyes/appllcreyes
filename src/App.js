@@ -1,24 +1,25 @@
-import logo from './logo.svg';
+import video from './Reyes Luxury Cars.mp4';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    
+       <video  src={video}  className='video-bag'  autoPlay muted loop controls />
+     <div className="bg-over"></div>
+    <div className="navbar">
+      <div className="nav-menu">
+        <div></div>
+        <div></div>
+        <div></div>
+        
+      </div>
     </div>
+    <div className="home-text">
+      <h1>Reyes Luxury Cars</h1>
+      <p>Popping Your Rides</p>
+    </div>
+    </div>   
   );
 }
 
